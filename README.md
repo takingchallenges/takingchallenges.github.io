@@ -1,2 +1,2 @@
-# takingchallenges.github.io
-takingchallenges.github.io website hosted using Jekyll now blogs
+# Taking-an-AWS-Developer-Associate-Challenge
+Putting all the bits for the preparation of AWS Certified Developer Associate.
