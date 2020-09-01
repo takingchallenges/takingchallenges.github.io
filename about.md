@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello ! This is Saad, I am a Computer Systems Engineer up here, trying to learn new things on daily basis.
+Hello ! This is Saad, I am a Computer Systems Engineer up here, trying hard to learn new things and improve my skills on daily basis.
 
 ## You can ping me at
 
