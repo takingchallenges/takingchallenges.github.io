@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Starting To Get Hands-On With AWS.
+comments: true
 ---
 
 To get familiar with the cloud environment, getting hands on with a prominent cloud service provider, I think of having some experience with Amazon Web Services (AWS). Although I have some familiarity with couple of AWS services like EC2 (Elastic Compute Cloud), S3 (Simple Storage Service) etc.
