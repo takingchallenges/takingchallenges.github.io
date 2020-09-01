@@ -8,7 +8,7 @@ Hello ! This is Saad, I am a Computer Systems Engineer up here, trying hard to l
 
 ## You can ping me at
 
-[syedsaadahmed dot com](https:/www.syedsaadahmed.com)
+[syedsaadahmed dot com](https:/www.syedsaadahmed.com) :wink:
 
 ### Let's have a chat or a coffee call sometime. We can connect;
 
