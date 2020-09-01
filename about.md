@@ -10,6 +10,10 @@ Hello ! This is Saad, I am a Computer Systems Engineer up here, trying to learn 
 
 [syedsaadahmed dot com](https:/www.syedsaadahmed.com)
 
-### Contact me
+### Let's have a chat or a coffee call sometime. We can connect;
 
 [syedsaadahmed2094@yahoo.com](mailto:syedsaadahmed2094@yahoo.com)
+
+## Here is my public key. (for a high profile secret chat)
+
+[SSssssshhhhhh !!!!!](https://keybase.io/syedsaadahmed20)
