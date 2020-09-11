@@ -107,4 +107,4 @@ You can easily access the Instance via SSH or putty client, example is shown bel
 ssh -i /path_to_ssh_key ec2-user@ip_of_instance
 ```
 
-Your instance is ready to go now, Enjoy !
+Your instance is ready to go now, Enjoy  :wink:
