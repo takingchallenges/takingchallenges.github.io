@@ -23,3 +23,88 @@ Starting off, first we need an AWS Account, for which I go for the student accou
 - Many physical locations available for your resources, on different Regions and Availability Zones.
 
 
+# Launching a basic EC2 Instance using AWS
+
+<br>
+
+**STEP-1** First of all, for launching a basic EC2 instance without any special configuration, one must have to follow these steps in order to launch a very basic EC2 instance. Go to AWS console and follow these simple steps.
+
+![_config.yml]({{ site.baseurl }}/images/aws_console.png)
+*AWS console page*
+
+
+<br>
+
+![_config.yml]({{ site.baseurl }}/images/launch_instance.png)
+*Launch Instance start page*
+
+
+<br>
+
+**STEP-2** Next you have to chose AMI (Amazon Machine Image) for your instance. which is the OS you want to have in your isntance, You have options for Ubuntu, OpenSuse, RedHat etc.
+
+<br>
+
+![_config.yml]({{ site.baseurl }}/images/choose_ami_1.png)
+*choosing Instance AMI*
+
+
+<br>
+
+**STEP-3** After that you have to chose the Instance type which is the speciic configuration for your machine which includes cores, CPU, memory and other things. If you are using free tier then you are eligible for **t2.micro option**.
+
+
+<br>
+
+![_config.yml]({{ site.baseurl }}/images/instance_type_2.png)
+*choosing instance type*
+
+
+<br>
+
+**STEP-4** Providing Instance Details is the next step to be done, for launching the basic instance you must not change any fields on this page, It contains network, IP, subnet mask options available for networking. Moreover it also contains IAM role options to be applied on the instance you are launching. For monitoring you can chose cloudwatch option provided, which is obviously for paid users, not for free tier. 
+
+<br>
+
+
+**STEP-5** Upcoming step is to provide storgae options for the instance, which is the size of the memory and the hard drive options available,
+
+<br>
+
+
+**STEP-6** Next is to configure security groups for the instance you are launching.
+<br>
+
+![_config.yml]({{ site.baseurl }}/images/security_3.png)
+*choosing security and access options*
+
+<br>
+
+- **Type** The protocol to open to network traffic. You can choose a common protocol, such as SSH (for a Linux instance), RDP (for a Windows instance), and HTTP and HTTPS to allow Internet traffic to reach your instance. 
+
+- **Protocol** and **Port Ranges** options.
+
+- **Source** is the other options, which is to specify from where you want to give access to your instance, let's say if I input my IP address in the source option, then the instance can only be accessed via my IP address. Same as if I input/select the option to all, it can be accessed from all over the world, which is obviously not a good security practice. I can also provide custom IP addresses for this option in which I can specify those IP addresses to whom I want to give the access to.
+
+
+<br>
+
+**FINAL STEP** Finally you can launch the instance and see your instances in the running instance panel. When you click the **Launch** button, it will prompt you for the key-pair option. which will give you two options
+
+- **Create a New key pair :** This option will create a new key pair for you to access the instance, make sure to save your private key properly in order to access the instance via keys. 
+
+- **Choose an Existing key pair :** This option will give you option to chose any exisitng key for you to access the instance, if you have already created the key.
+
+
+<br>
+
+# Accessing the EC2 Instance you have configured
+
+
+You can easily access the Instance via SSH or putty client, example is shown below.
+
+```shell
+ssh -i /path_to_ssh_key ec2-user@ip_of_instance
+```
+
+Your instance is ready to go now, Enjoy !
