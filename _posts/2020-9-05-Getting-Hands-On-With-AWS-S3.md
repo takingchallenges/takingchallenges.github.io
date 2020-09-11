@@ -11,5 +11,5 @@ S3 stands for Simple Storage Service, As the name says it is a service used for 
 **S3**, stands for Simple Storage Service.
 
 
-Complete blog, coming soon  :wink:
+Complete blog, coming soon ...
 

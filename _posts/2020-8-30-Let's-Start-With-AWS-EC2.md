@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting To Get Hands-On With AWS.
+title: Let's Start With AWS-EC2.
 comments: true
 ---
 
@@ -107,4 +107,4 @@ You can easily access the Instance via SSH or putty client, example is shown bel
 ssh -i /path_to_ssh_key ec2-user@ip_of_instance
 ```
 
-Your instance is ready to go now, Enjoy  :wink:
+Your instance is ready to go now, Enjoy !
